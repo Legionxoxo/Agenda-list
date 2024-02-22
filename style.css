@@ -1,0 +1,156 @@
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Anta",sans-serif;
+    border: none;
+    
+}
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+
+.todo{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px 700px 20px;
+    padding: 40px 30px 70px;
+    border-radius: 30px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(90deg, #FFDEE9 0%, #daefee 100%);
+}
+
+.todo h2{
+    color: #131415;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+     
+}
+
+.todo h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px ;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background: #F3EEEE;
+   
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    padding: 16px 50px ;
+    background: #79d1cd;
+    color: #1c6ea4;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor:pointer;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center     ;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+ul li.checked::before{
+    background-image: url(images/checked.png);
+}
+
+ul li span{
+    position:absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 40%;
+}
+
+ul li span:hover{
+    background-color: #e5c1ee;
+    border-radius: 40%;
+}
+
+body
+{
+   
+    background: linear-gradient(90Deg , #FFDEE9 0% , #B5FFFC 100%);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 10%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:100% 10%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
+
