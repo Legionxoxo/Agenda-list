@@ -34,13 +34,4 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 This project is licensed under the MIT License.
 
-**Acknowledgments**
 
-This project was inspired by [insert inspiration or resources used].
-
-**Changelog**
-
-* [insert version number]: [insert changes made]
-* [insert version number]: [insert changes made]
-
-I hope this helps! Let me know if you have any questions or need further assistance.
